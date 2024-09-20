@@ -7,8 +7,17 @@
  */
 
 
+ 
 
+.wp{
+  display: flex;
+  justify-content: space-between;
+}
+.wpicon{
+  margin: auto;
+  padding: auto;
 
+}
 
 /*-----------------------------------*\
   #CUSTOM PROPERTY
@@ -1177,4 +1186,21 @@ textarea.input-field {
 
   .contact-card .card-icon { padding: 15px; }
 
+
+}
+.btnwp{
+  background-color: green;
+}
+/* WhatsApp Floating Button */
+.whatsapp_float {
+  position: fixed;
+  bottom: 60px;
+  right: 15px;
+  z-index: 100;
+}
+
+.whatsapp_float img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
 }
