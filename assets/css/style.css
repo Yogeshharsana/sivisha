@@ -29,9 +29,9 @@
    * colors
    */
 
-  --safety-orange: hsl(25, 100%, 50%);
+  --safety-orange: hsl(238, 66%, 65%);
   --lavender-gray: hsl(230, 19%, 81%);
-  --persian-rose: hsl(328, 100%, 59%);
+  --persian-rose: hsl(217, 96%, 34%);
   --red-crayola: hsl(341, 100%, 49%);
   --eerie-black: hsl(240, 6%, 10%);
   --light-gray: hsl(0, 0%, 80%);
@@ -49,7 +49,7 @@
    * gradient color
    */
 
-  --gradient: linear-gradient(to left top, var(--persian-rose), var(--safety-orange));
+  --gradient: linear-gradient(to left top, var(--persian-rose), var(--persian-rose));
 
   /**
    * typography
@@ -337,7 +337,7 @@ body {
   transition: var(--transition-1);
 }
 
-.navbar-link:is(:hover, :focus) { color: var(--red-crayola); }
+.navbar-link:is(:hover, :focus) { color: var(--persian-rose); }
 
 .header .btn { margin-block-start: 10px; }
 
@@ -484,7 +484,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: var(--white-1);
-  color: var(--red-crayola);
+  color: var(--persian-rose);
   font-size: 32px;
   padding: 16px;
   border-radius: 50%;
@@ -513,7 +513,7 @@ body {
 }
 
 .about-item ion-icon {
-  color: var(--red-crayola);
+  color: var(--persian-rose);
   flex-shrink: 0;
   margin-block-start: 2px;
 }
@@ -583,7 +583,7 @@ body {
 .blog-card .card-content { padding: 15px; }
 
 .blog-card .time {
-  color: var(--red-crayola);
+  color: var(--persian-rose);
   font-size: var(--fs-6);
   line-height: 1;
   margin-block-end: 10px;
@@ -591,7 +591,7 @@ body {
 
 .blog-card .card-title { transition: var(--transition-1); }
 
-.blog-card .card-title:is(:hover, :focus) { color: var(--red-crayola); }
+.blog-card .card-title:is(:hover, :focus) { color: var(--persian-rose); }
 
 
 
@@ -626,7 +626,7 @@ body {
 
 .input-field::-webkit-inner-spin-button { display: none; }
 
-.input-field:focus { outline-color: var(--red-crayola); }
+.input-field:focus { outline-color: var(--persian-rose); }
 
 .input-field::placeholder { transition: var(--transition-1); }
 
@@ -643,12 +643,12 @@ textarea.input-field {
 .checkbox {
   width: max-content;
   margin-block-start: 5px;
-  accent-color: var(--red-crayola);
+  accent-color: var(--persian-rose);
 }
 
 .label-link {
   display: inline-block;
-  color: var(--red-crayola);
+  color: var(--persian-rose);
 }
 
 .label-link:is(:hover, :focus) { text-decoration: underline; }
@@ -683,7 +683,7 @@ textarea.input-field {
 
 .contact-card .card-icon {
   background-color: var(--cultured-2);
-  color: var(--red-crayola);
+  color: var(--persian-rose);
   font-size: 25px;
   padding: 13px;
   border-radius: 50%;
@@ -691,7 +691,7 @@ textarea.input-field {
 }
 
 .contact-card:is(:hover, :focus) .card-icon {
-  background-color: var(--red-crayola);
+  background-color: var(--persian-rose);
   color: var(--white-1);
 }
 
@@ -702,7 +702,7 @@ textarea.input-field {
   transition: var(--transition-1);
 }
 
-.contact-card .card-link:is(:hover, :focus) { color: var(--red-crayola); }
+.contact-card .card-link:is(:hover, :focus) { color: var(--persian-rose); }
 
 
 
@@ -723,7 +723,7 @@ textarea.input-field {
 }
 
 .copyright-link {
-  color: var(--red-crayola);
+  color: var(--persian-rose);
   font-weight: var(--fw-500);
   display: inline-block;
 }
@@ -1005,7 +1005,7 @@ textarea.input-field {
     left: 0;
     width: 2px;
     height: 100%;
-    background-color: var(--red-crayola);
+    background-color: var(--persian-rose);
   }
 
   .hero-text,
