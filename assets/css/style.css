@@ -64,6 +64,7 @@
   --fs-4: 1.7rem;
   --fs-5: 1.5rem;
   --fs-6: 1.3rem;
+  --fs-7: 1rem;
 
   --fw-700: 700;
   --fw-500: 500;
@@ -214,6 +215,7 @@ body {
 .section { padding-block: var(--section-padding); }
 .logopng{
   max-width: 8rem;
+  
 
 }
 .h1,
@@ -229,6 +231,10 @@ body {
 .h2 { font-size: var(--fs-2); }
 
 .h3 { font-size: var(--fs-3); }
+.h6 {
+  font-size: var(--fs-7);
+  color: var(--persian-rose);
+}
 
 .w-100 { width: 100%; }
 
