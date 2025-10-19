@@ -272,7 +272,7 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: var(--white-1);
+  background-color:beige;
   padding-block: 15px;
   border-block-end: 1px solid var(--cultured);
   z-index: 4;
